@@ -2,10 +2,11 @@
 $servername = "j5zntocs2dn6c3fj.chr7pe7iynqr.eu-west-1.rds.amazonaws.com";
 $username = "ispdec3h1kmywx58";
 $password = "wffu1yoh6mc2dqy2";
+$database = "t2szimexkozly7rg";
 $message = "blank";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
 if ($conn->connect_error) {
