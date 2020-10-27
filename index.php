@@ -1,3 +1,3 @@
 <?php
 
-echo $message;
+echo "And the winner is $message";
