@@ -1,4 +1,4 @@
-config.php
-<?php
 
+<?php
+include 'config.php';
 echo "And the winner is $message";
